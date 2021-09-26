@@ -9,7 +9,7 @@ const router = require('./routes');
 app.use(
   cors({
     origin: '*',
-    credentials: true,
+    credentials: false,
     allowMethods: ['GET', 'POST', 'PUT', 'DELETE'],
   }),
 );
